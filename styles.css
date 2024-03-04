@@ -1,0 +1,307 @@
+body::before {
+    content: "XS";
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+ 
+  .stt{
+    background-color:rgb(216, 222, 243);
+
+  }
+  .img-thumbnail {
+    height: 120px;
+    width: 100%;
+}
+.navvbar {
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+}
+.navbar {
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+}
+  * {
+    font-family: montserrat;
+}
+
+body {
+    background: f1fbff
+}
+.footer {
+  background-color: rgba(0,0,0,.93);
+}
+
+.col-style {
+  display: flex;
+}
+.cis {
+  height: 120px;
+}
+
+.section-padding {
+    padding: 30px 0;
+}
+.carousel-item {
+    height: 70vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 50px;
+    left:0px;
+    z-index: 1;
+
+}
+.cardi {
+  text-align: center;
+  font-size: 60px;
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+  padding: 15px;
+  color: white;
+}
+
+.cardc {
+  text-align: center;
+  font-size: 60px;
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+  padding: 15px;
+  color: white;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption h2{
+    font-size: 70px;
+    letter-spacing: 0px;
+    margin-top: 25px;
+}
+.carousel-caption h1{
+  font-size: 90px;
+  letter-spacing: 0px;
+  margin-top: 25px;
+}
+
+/* Video */
+.video-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+
+.video {
+  width: 100%;
+  height: 350px;
+}
+
+.carousel-caption p{
+    width: 70%;
+    margin: auto;
+    font-size: 19px;
+    line-height: 1.9;
+    z-index: 1;
+}
+
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+    z-index: 1;
+    top: 0;
+    left: 0;
+ 
+}
+
+
+.w-100 {
+    height: 70vh;
+}
+.servt {
+  color: #575760;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 992px){
+  .cardp{
+    width: 200px;
+  }
+  .carousel-caption {
+    bottom: 125px;
+}
+.carousel-caption h5{
+  font-size: 17px;
+}
+
+.carousel-caption h2{
+font-size: 40px;
+padding-bottom: 20px;
+}
+.carousel-caption h1{
+font-size: 55px;
+}
+.carousel-caption a{
+  padding: 10px 15px;
+}
+.carousel-caption p{
+  font-size: 16px;
+  line-height: 1.6;
+}
+}
+
+@media only screen and (max-width: 830px){
+  .carousel-caption h2{
+    font-size: 35px;
+    }
+    .carousel-caption h1{
+    font-size: 40px;
+    }
+
+    .serv {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .img-thumbnail {
+      width: 50%;
+    }
+}
+
+.btnn {
+    position: absolute;
+    right: 155px;
+    bottom: 0;
+}
+
+  .top {
+    padding-left: 150px;
+    color: #245b6a;
+  }
+  .loc {
+    font-size: 80px;
+  }
+  .loct {
+    font-size: 16px;
+    font-weight: 300;
+    
+  }
+  .ico {
+    position: absolute; 
+    right: 80px;
+    top: 70px;
+  }
+ 
+ .search {
+  color: white;
+ }
+ /* Navbar Product */
+ .heading {
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+  font-size: 18px;
+ }
+ .product {
+  width: 100vh;
+  height: 70vh;
+ }
+
+  .iconss {
+    font-size: 40px;
+    color: #245b6a;
+  }
+
+  .iconsss {
+    font-size: 100px;
+    color: #245b6a;
+  }
+
+
+
+.card-text {
+  color: #575760;
+  font-size: 20px;
+}
+.about {
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+}
+.cardcis {
+  height: 220px;
+}
+.cardp {
+  border-color: #245b6a;
+  height: 100%;
+  width: 190px;
+}
+.cistext {
+  font-size: 16px;
+  color:#245b6a;
+}
+.swiper {
+  width: 100vh;
+  height: 30vh;
+}
+
+
+.aboutimg {
+  width: 85%;
+  height: 70%
+}
+.btnabout {
+  width: 150px;
+  color: #245b6a;
+  font-size:20px;
+  font-weight: 300%;
+}
+.workf {
+  height: 100%;
+}
+.careers {
+  margin-left: 0;
+}
+.end {
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+}
+.contact {
+  background-image: linear-gradient(191deg,#245b6a 0%,#518390 120%);
+}
+@media (min-width: 576px) {
+  body::before {
+    content: "SM";
+  }
+}
+  @media (min-width: 768px) {
+    body::before {
+      content: "MD";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "LG";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "XL";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "XXL";
+    }
+  }
+  
